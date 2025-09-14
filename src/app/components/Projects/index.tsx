@@ -15,23 +15,19 @@ const Projects = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         minHeight: "100vh"
-      }}
-    >
-      {/* Header + Buttons */}
+      }}>
       <div className="flex flex-col justify-center items-center p-6">
         <ReusableH2 title="Andrew Julius Kalumba" />
         <div className="flex gap-8 pt-5">
           <button
             onClick={() => setActiveButton("github")}
-            className="flex justify-center items-center gap-2.5 text-2xl bg-[#218380] text-amber-50 rounded-3xl px-6 py-3 uppercase"
-          >
+            className="flex justify-center items-center gap-2.5 text-2xl bg-[#218380] text-amber-50 rounded-3xl px-6 py-3 uppercase">
             <FaGithub className="text-2xl" />
             GitHub
           </button>
           <button
             onClick={() => setActiveButton("about")}
-            className="text-2xl bg-[#218380] text-amber-50 rounded-3xl px-6 py-3 uppercase"
-          >
+            className="text-2xl bg-[#218380] text-amber-50 rounded-3xl px-6 py-3 uppercase">
             About
           </button>
         </div>

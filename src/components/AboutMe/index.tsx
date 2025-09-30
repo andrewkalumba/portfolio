@@ -56,7 +56,7 @@ const AboutMe = () => {
           className="inline-block mt-8 px-8 py-3 bg-[#218380] rounded-3xl uppercase
                      font-semibold tracking-wide shadow-lg hover:bg-[#1a6c6d] transition-all duration-300"
         >
-          See My Work
+          Some Of My Work
         </motion.a>
       </motion.div>
 

@@ -33,12 +33,11 @@ export default function FlipCard() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
           </div>
 
-         <div className="absolute inset-0 flex items-center justify-center rounded-2xl shadow-2xl border-2 border-amber-50/20  text-gray-800 text-center text-sm font-semibold rotate-y-180 backface-hidden p-3">
-  <div className="rounded-xl text-white p-3 text-left">
-    Coding is the art of turning imagination into reality. It’s where logic meets creativity. Every bug solved feels like cracking a mystery, and every project built feels like creating magic. That’s why we love coding because it’s not just writing code, it’s crafting the future.
-  </div>
-</div>
-
+          <div className="absolute inset-0 flex items-center justify-center rounded-2xl shadow-2xl border-2 border-amber-50/20  text-gray-800 text-center text-sm font-semibold rotate-y-180 backface-hidden p-3">
+            <div className="rounded-xl text-white p-3 text-left">
+              Coding is the art of turning imagination into reality. It’s where logic meets creativity. Every bug solved feels like cracking a mystery, and every project built feels like creating magic. That’s why we love coding because it’s not just writing code, it’s crafting the future.
+            </div>
+          </div>
         </motion.div>
       </div>
     </motion.div>

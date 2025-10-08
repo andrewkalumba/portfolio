@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ReusableH2 from "../ReusableH2";
 import ProfileFlipImage from "../ProfileFlipImage";
 import AnimatedH3 from "../AnimatedH3";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -35,6 +36,11 @@ const AboutMe = () => {
 
         <div className="relative inline-block mt-4">
           <AnimatedH3 />
+        </div>
+
+        <div className="flex justify-center md:justify-start gap-6 mt-4 text-3xl">
+          <a href="https://github.com/andrewkalumba" target="_blank" className="hover:text-[#363838] transition-transform transform hover:scale-110"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/andrew-julius-kalumba-82b02b348/" target="_blank" className="hover:text-[#363838] transition-transform transform hover:scale-110"><FaLinkedin /></a>
         </div>
 
         <p className="mt-6 text-sm md:text-base leading-relaxed max-w-lg mx-auto md:mx-0">

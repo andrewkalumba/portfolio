@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 import emailjs from "emailjs-com"
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { motion } from "framer-motion"
 
 const ContactForm = () => {
